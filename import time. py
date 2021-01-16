@@ -1,0 +1,10 @@
+import time
+
+print('Code Execution Started')
+
+def display():
+    print('Welcome to Guru99 Tutorials')
+    time.sleep(5)
+
+display()
+print('Function Execution Delayed')
