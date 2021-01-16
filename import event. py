@@ -1,0 +1,10 @@
+from threading import Event
+
+print('Code Execution Started')
+
+def display():
+    print('Welcome to Guru99 Tutorials')
+
+
+Event().wait(5) 
+display()
