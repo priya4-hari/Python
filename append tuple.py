@@ -1,0 +1,5 @@
+thistuple=("apple","orange","mango")
+y=list(thistuple)
+y.append("kiwi")
+x=tuple(y)
+print(x)
