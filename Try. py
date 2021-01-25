@@ -1,0 +1,6 @@
+try:
+	x="hello"
+	if not type(x) is int:
+		raise TypeError
+except TypeError:
+	print("error")
