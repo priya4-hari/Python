@@ -1,0 +1,7 @@
+try:
+	f=open("demo.txt")
+	f.write("hello")
+except:
+	print("error")
+finally:
+	f.close()
