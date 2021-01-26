@@ -1,0 +1,3 @@
+import json
+m={"x":("hari","priya"),"y":["hari","priya"],"a":{"name":"hari","uu":"priya"},"z":"hari","g":2,"c":2.34,"u":True,"k":False,"o":None}
+print(json.dumps(m,indent=4,sort_keys=True))
