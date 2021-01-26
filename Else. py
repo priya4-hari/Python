@@ -1,0 +1,6 @@
+try:
+	print("hello")
+except:
+	print("name is not defined")
+else:
+	print("no error")
