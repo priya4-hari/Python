@@ -1,0 +1,4 @@
+import re
+txt="the rain in spain"
+x=re.sub("\s","s",txt)
+print(x)
