@@ -1,0 +1,6 @@
+print(json.dumps("hari"))
+print(json.dumps(2))
+print(json.dumps(3.23))
+print(json.dumps(True))
+print(json.dumps(False))
+print(json.dumps(None))
