@@ -1,0 +1,6 @@
+from collections import Counter
+x=Counter()
+x.update("welcome to guru99")
+print("%s:%d"%('u',x['u']))
+for i in 'guru':
+	print("%s:%d"%(i,x[i]))
