@@ -1,0 +1,7 @@
+li=('a','b','c','d')
+for i in enumerate(li):
+	print(i)
+	print("\n")
+for i in enumerate(li,10):
+	print(i)
+	print("\n")
