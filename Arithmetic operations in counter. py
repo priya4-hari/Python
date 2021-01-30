@@ -1,0 +1,11 @@
+from collections import Counter
+x=Counter({'x':3,'y':4,'z':2})
+y=Counter({'x':1,'y':2,'z':1})
+z=x+y
+print(z)
+z=x-y
+print(z)
+z=x&y
+print(z)
+z=x|y
+print(z)
