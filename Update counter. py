@@ -1,0 +1,5 @@
+from collections import Counter
+x=Counter({'x':5,'y':12,'z':-2,'x1':0})
+y=Counter({'x':2,'y':5})
+x.update(y)
+print(x)
