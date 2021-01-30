@@ -1,0 +1,5 @@
+from collections import Counter
+x=Counter({'x':5,'y':2,'z':-2,'x1':0})
+y=x.elements()
+for i in y:
+	print(i)
