@@ -1,0 +1,3 @@
+def func(*kid):
+	print("hari"+" "+kid[1])
+func("hari","priya","naveen")
