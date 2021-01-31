@@ -1,0 +1,8 @@
+def func(n):
+	if n>0:
+		x=n+func(n-1)
+		print(x)
+	else:
+		x=0
+	return x
+func(6)
