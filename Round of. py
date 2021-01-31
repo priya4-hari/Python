@@ -1,0 +1,14 @@
+x=2.3
+print(round(x))
+x=2.5
+print(round(x))
+x=10.3456
+print(round(x))
+x=10.5445
+print(round(x))
+x=4
+print(round(x))
+x=3.4
+print(round(x))
+x=3.5
+print(round(x))
