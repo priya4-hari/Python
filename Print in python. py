@@ -1,0 +1,5 @@
+def func(x):
+	for i in x:
+		print(i)
+x=["h","w"]
+func(x)
