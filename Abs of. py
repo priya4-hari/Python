@@ -1,0 +1,6 @@
+x=2
+print(abs(x))
+x=2.5
+print(abs(x))
+x=3+10j
+print(abs(x))
