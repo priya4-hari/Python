@@ -1,0 +1,3 @@
+def func(**kid):
+	print("hari"+kid["lname"])
+func(fname="hari",lname="priya",friend="naveen")
