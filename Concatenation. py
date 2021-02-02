@@ -1,0 +1,3 @@
+a=str(5)
+b="hloo"
+print(a+b)
