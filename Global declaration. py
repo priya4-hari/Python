@@ -1,0 +1,8 @@
+a=6
+print(a)
+def func():
+	global a
+	print(a)
+	a="hloo"
+func()
+print(a)
