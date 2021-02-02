@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int i=5;
+    double x=1.23456;
+    void *p;
+    p=&i;
+    printf("%d",*((int *)p));
+    p=&x;
+    printf("\n%lf",*((double *)p));
+    }
